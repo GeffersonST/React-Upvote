@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Comments from "./comments/Comments";
+import Header from "./components/Header";
+import Post from "./components/Post";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <h1>Segware Upvotes</h1>
+      <Post />
+      <Comments
+        commentsUrl="segware-book-api.segware.io/api"
+        currentUserId="1"
+      />
     </div>
   );
-}
+};
 
 export default App;
