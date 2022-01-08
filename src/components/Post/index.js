@@ -8,7 +8,7 @@ class Post extends Component {
         <header>
           <div className="Post-user">
             <div className="Post-user-profilepicture">
-              <img src={avatar} alt="John D. Veloper" />
+              <img src={avatar} alt="usuário" />
             </div>
 
             <div className="Post-user-nickname">

@@ -41,7 +41,7 @@ export const createComment = async (text, parentId = null) => {
     body: text,
     parentId,
     userId: "1",
-    username: "Gefferson Severoyarn ",
+    username: "Gefferson Severo ",
     createdAt: new Date().toISOString(),
   };
 };

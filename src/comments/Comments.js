@@ -60,9 +60,9 @@ const Comments = ({ commentsUrl, currentUserId }) => {
 
   return (
     <div className="comments">
-      <h3 className="comments-title">Comments</h3>
-      <div className="comment-form-title">Write comment</div>
-      <CommentForm submitLabel="Write" handleSubmit={addComment} />
+      <h3 className="comments-title">Comentários</h3>
+      <div className="comment-form-title">Escreva seu comentário</div>
+      <CommentForm submitLabel="Postar" handleSubmit={addComment} />
 
       <div className="comments-container">
         {rootComments.map((rootComment) => (
